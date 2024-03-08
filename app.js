@@ -1,6 +1,6 @@
 import express from 'express';
 import router from './router/web.js';
-import connectDb from './db/connectdb.js';
+import connectDb from './db/connectDb.js';
 import bodyParser from 'body-parser';
 import { config } from 'dotenv';
 
